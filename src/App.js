@@ -11,14 +11,13 @@ const App = () => {
     return (
         <div>
             <Grid className={style.grid} container spacing={0} alignItems='center' justify='center' style={{height: '100vh'}}>
-                <Grid item xs={12} sm={4}>
+                <Grid item xs={12} sm={2}>
                     <Details title='Income'/>
-                </Grid>
-                <Grid item xs={12} sm={4}>
-                    <Main/>
-                </Grid>
-                <Grid item xs={12} sm={4}>
                     <Details title='Expense'/>
+                </Grid>
+                
+                <Grid item xs={12} sm={5}>
+                    <Main/>
                 </Grid>
             </Grid>
         </div>
