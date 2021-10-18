@@ -6,5 +6,11 @@ export default makeStyles(() => ({
     },
     expense: {
         borderBottom:'10px solid rgba(255, 0, 0, 0.5)'
+    },
+
+    doughnut: {
+        display: 'block', 
+        height:'147px',
+        width: '295px', 
     }
 }));  

@@ -16,7 +16,7 @@ const Details = ({ title }) => {
                 <Typography variant='h5'>
                     ${total}
                 </Typography>
-                <Doughnut data={chartData}/>
+                <Doughnut className={style.doughnut} data={chartData}/>
             </CardContent>
         </Card>
     )
